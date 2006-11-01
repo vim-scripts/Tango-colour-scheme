@@ -19,16 +19,16 @@ let colors_name = "tango"
 
 " Default Colors
 hi Normal       guifg=#eeeeec guibg=#000000
-hi NonText      guifg=#555753 guibg=#000000
+hi NonText      guifg=#555753 guibg=#000000 gui=none
 hi NonText      ctermfg=darkgray
 hi Cursor       guibg=#d3d7cf
 hi lCursor      guibg=#d3d7cf
 
 " Search
-hi Search	guifg=#eeeeec guibg=#c4a000
-hi Search	cterm=NONE ctermfg=grey ctermbg=blue
-hi IncSearch	guibg=#eeeeec guifg=#729fcf
-hi IncSearch	cterm=NONE ctermfg=yellow ctermbg=green
+hi Search       guifg=#eeeeec guibg=#c4a000
+hi Search       cterm=none ctermfg=grey ctermbg=blue
+hi IncSearch    guibg=#eeeeec guifg=#729fcf
+hi IncSearch    cterm=none ctermfg=yellow ctermbg=green
 
 " Window Elements
 hi StatusLine   guifg=#eeeeec guibg=#4e9a06 gui=bold
@@ -59,20 +59,20 @@ hi Identifier   ctermfg=darkgreen
 hi PreProc      guifg=#cc0000
 hi PreProc      ctermfg=darkred
 hi Comment      guifg=#06989a gui=italic
-hi Comment      ctermfg=cyan cterm=NONE
+hi Comment      ctermfg=cyan cterm=none
 hi Type         guifg=#d3d7cf gui=bold
 hi Type         ctermfg=gray cterm=bold
 hi Special      guifg=#75507b
-hi Special      ctermfg=magenta cterm=NONE
+hi Special      ctermfg=magenta cterm=none
 hi Error        guifg=#eeeeec guibg=#ef2929
 hi Error        ctermfg=white ctermbg=red
 
 " Diff
-hi DiffAdd      guifg=fg guibg=#3465a4 gui=NONE
-hi DiffAdd	ctermfg=gray ctermbg=blue cterm=NONE
-hi DiffChange	guifg=fg guibg=#555753 gui=NONE
-hi DiffChange	ctermfg=gray ctermbg=darkgray cterm=NONE
-hi DiffDelete   guibg=NONE
-hi DiffDelete	ctermfg=gray ctermbg=NONE cterm=NONE
-hi DiffText	guifg=fg guibg=#c4a000 gui=NONE
-hi DiffText	ctermfg=gray ctermbg=yellow cterm=NONE
+hi DiffAdd      guifg=fg guibg=#3465a4 gui=none
+hi DiffAdd      ctermfg=gray ctermbg=blue cterm=none
+hi DiffChange   guifg=fg guibg=#555753 gui=none
+hi DiffChange   ctermfg=gray ctermbg=darkgray cterm=none
+hi DiffDelete   guibg=bg
+hi DiffDelete   ctermfg=gray ctermbg=none cterm=none
+hi DiffText     guifg=fg guibg=#c4a000 gui=none
+hi DiffText     ctermfg=gray ctermbg=yellow cterm=none
